@@ -11,7 +11,7 @@
   
   body {
     font-family: 'PT Sans', Arial, Verdana;
-    background-color: #eee;
+    background-color: #ffffff;
   }
   
   h1 {
@@ -19,7 +19,7 @@
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #222;
+    color: #000000;
   }
   
   .menu {
@@ -32,7 +32,7 @@
     position: relative;
     background-color: #a4a4a4;
     z-index: 7;
-  
+}
     li {
       float: left;
       width: 25%;
@@ -47,17 +47,17 @@
       height: 100%;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: #ffffff;
       text-decoration: none;
       position: relative;
       font-size: 18px;
       z-index: 9;
     }
-  }
   
   a.active {
     background-color: #ffffff;
     pointer-events: none;
+    color: #000000;
   }
   
   li.slider {
@@ -66,7 +66,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #000000;
+    background-color: #a4a4a4;
     z-index: 8;
     transition: left .4s, background-color .4s;
   }
@@ -74,36 +74,28 @@
   .menu li:nth-child(1):hover,
   .menu li:nth-child(1):focus,
   .menu li:nth-child(1):active {
-    & ~ .slider {
       left: 0;
       background-color: #a4a4a4;
     }
-  }
   
   
   .menu li:nth-child(2):hover,
   .menu li:nth-child(2):focus,
   .menu li:nth-child(2):active {
-    & ~ .slider {
       left: 25%;
-      background-color: #9b59b6;
+      background-color: #a4a4a4;
     }
-  }
   
   .menu li:nth-child(3):hover,
   .menu li:nth-child(3):focus,
   .menu li:nth-child(3):active {
-    & ~ .slider {
       left: 50%;
-      background-color: #e67e22;
+      background-color: #a4a4a4;
     }
-  }
   
   .menu li:nth-child(4):hover,
   .menu li:nth-child(4):focus,
   .menu li:nth-child(4):active {
-    & ~ .slider {
       left: 75%;
       background-color: #16a085;
     }
-  }
