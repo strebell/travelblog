@@ -1,21 +1,21 @@
-li {
-	list-style-type: none;
-	width: 45%;
-}
-
-img {
-	padding: auto;
-	margin: auto;	
+li{
+    margin: 100px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100px;
+    list-style: none;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
     width: auto;
-}
-
-button {
-  padding: 0.1em;
-}
-
-
-	button:focus, 
-	button:hover {
-        background: #A4a4a4;
-	}
-}
+    height: 25%;
+  }
+  
+  div.desc {
+     text-align: center;
+  }
+ 
