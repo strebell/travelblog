@@ -1,0 +1,21 @@
+li {
+	list-style-type: none;
+	width: 45%;
+}
+
+img {
+	padding: auto;
+	margin: auto;	
+    width: auto;
+}
+
+button {
+  padding: 0.1em;
+}
+
+
+	button:focus, 
+	button:hover {
+        background: #A4a4a4;
+	}
+}
