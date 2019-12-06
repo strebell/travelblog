@@ -66,7 +66,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #a4a4a4;
     z-index: 8;
     transition: left .4s, background-color .4s;
   }
@@ -75,7 +74,8 @@
   .menu li:nth-child(1):focus,
   .menu li:nth-child(1):active {
       left: 0;
-      background-color: #a4a4a4;
+      background-color: #000000;
+      color: white;
     }
   
   
@@ -83,19 +83,22 @@
   .menu li:nth-child(2):focus,
   .menu li:nth-child(2):active {
       left: 25%;
-      background-color: #a4a4a4;
+      background-color: #000000;
+      color: white;
     }
   
   .menu li:nth-child(3):hover,
   .menu li:nth-child(3):focus,
   .menu li:nth-child(3):active {
       left: 50%;
-      background-color: #a4a4a4;
+      background-color: #000000;
+      color: white;
     }
   
   .menu li:nth-child(4):hover,
   .menu li:nth-child(4):focus,
   .menu li:nth-child(4):active {
       left: 75%;
-      background-color: #16a085;
+      background-color: #000000;
+      color: white;
     }
