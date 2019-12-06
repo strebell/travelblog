@@ -1,38 +1,21 @@
-li {
-	display: inline-block;	
-	list-style-type: none;
-	width: 45%;
-}
+.btn:focus, .btn:active, button:focus, button:active {
+	outline: none !important;
+	box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+	display: block;
+  }
+  
+  .thumb{
+	margin-top: 15px;
+	margin-bottom: 15px;
+  }
 
-img {
-	padding: 0;
-	margin: 0;	
-	width: 100%;  /* Bild passt sich an verfügbaren Raum im li an */
-}
+  #Bulgarien {
+    position: absolute;
+  }
 
-button {
-  padding: 0.1em;
-}
-
-     /* Large screens */
-@media all and (min-width: 35em) {
-	li {
-		width: 10em;
-	}
-
-	img {
-		padding: 0;
-		margin: 0;	
-		width: 100%;  /* Bild passt sich an verfügbaren Raum im li an */
-	}
-
-	button {
-		padding: 0.1em;
-	}
-
-	button:focus, 
-	button:hover {
-		background: #09c;
-	}
-}
- 
+  .thumbnail {
+    position: ;
+  }
