@@ -9,3 +9,21 @@ h6{
    margin-left: 500px;
     width: 500px;
 }
+
+
+h2{
+    text-align: center;
+    margin-left: 500px;
+    width: 500px;
+} 
+
+p{
+    text-align: center;
+    margin-left: 350px;
+    width: 800px;
+} 
+
+.image{
+    border: 3px solid #000000
+}
+
