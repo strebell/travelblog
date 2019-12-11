@@ -27,3 +27,20 @@ p{
     border: 3px solid #000000
 }
 
+.img{
+    border: 2px solid #a4a4a4
+    }
+
+.flex{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.desc{
+    text-align: center;
+    margin-left: -20px;
+}
+
+
+
