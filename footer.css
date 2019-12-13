@@ -5,5 +5,10 @@ mbr-text mb-0 mbr-fonts-style display-7 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
-    color: crimson
+    }
+
+footer{
+    background-color: #a4a4a4;
+    height: 50px;
+    position: relative;
 }
