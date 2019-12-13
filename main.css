@@ -7,3 +7,31 @@ h2 {
     text-align: center;
     color: #000000;
 }
+
+send_email.php {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    color: #000000;
+}
+
+div.zoe img {
+    float: left;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px solid #a4a4a4
+  }
+
+  .rose {
+    float: right;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px solid #a4a4a4
+  }
