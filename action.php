@@ -1,2 +1,2 @@
-Hallo <?php echo htmlspecialchars($_POST['name']); ?>.
-Sie sind <?php echo (int)$_POST['alter']; ?> Jahre alt.
+Hello <?php echo htmlspecialchars($_POST['Name']); ?>.
+Thank you for your order!
