@@ -14,12 +14,22 @@
         <link rel="stylesheet" href="about_style.css">
         <link rel="stylesheet" href="tothetopbutton.css">
         <script src="tothetopbutton.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+            $("form").toggle();
+          });
+        });
+        </script>
+
     </head>
     <body>
         <header>
             
             
-            <a href="about/skyline.jpg"><img src="about/skyline.jpg" class="bgimg" alt="Bild"/></a>
+            <a href="index.html"><img src="about/skyline.jpg" class="bgimg" alt="Bild"/></a>
             <ul class="menu">
                 <li><a href="index.html"class="active">Home</a></li>
                 <li><a href="destinations.html">Destinations</a></li>
@@ -34,6 +44,9 @@
         don't hesitate to check the whole website out. And if you like the pictures we took on our adventures, 
         you can also buy them. Just copy the code of each picture and fill out the form below and you can use the picture. 
         </h4>
+        
+        <button>Buy a picture</button>
+    
         <form method="post" action="send_email.php">
             <label for="Name"><b>Name:</b></label><br>
             <input type="text" id="Name" name="Name"><br><br>

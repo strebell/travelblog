@@ -35,3 +35,18 @@ div.zoe img {
     margin-top: 10px;
     border: 2px solid #a4a4a4
   }
+  
+  button {
+    font-family: PT sans;
+    font-size: 20px;
+    left:20px;
+    height:45px;
+    width: 150px;
+    margin: 20px;
+    border: 0px;
+  }
+  
+  form {
+    left:20px;
+    margin: 20px;
+  }
