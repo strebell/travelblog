@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="about_style.css">
+        <link rel="stylesheet" href="tothetopbutton.css">
+        <script src="tothetopbutton.js"></script>
     </head>
     <body>
         <header>
@@ -47,6 +49,42 @@
              
             <input type="submit" name="submit">
             </form>
+            <form action="action.php" method="post">
+                <p>Ihr Name: <input type="text" name="name" /></p>
+                <p>Ihr Alter: <input type="text" name="alter" /></p>
+                <p><input type="submit" /></p>
+               </form>
+               <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	// Der Button wird mit JavaScript erzeugt und vor dem Ende des body eingebunden.
+	var back_to_top_button = ['<a href="#top" class="back-to-top">Nach oben</a>'].join("");
+	$("body").append(back_to_top_button)
+
+	// Der Button wird ausgeblendet
+	$(".back-to-top").hide();
+
+	// Funktion für das Scroll-Verhalten
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
+				$('.back-to-top').fadeIn();
+			} else {
+				$('.back-to-top').fadeOut();
+			}
+		});
+
+		$('.back-to-top').click(function () { // Klick auf den Button
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
         <footer>
             <p class="mbr-text mb-0 mbr-fonts-style display-7">
                     © Copyright 2019 - All Rights Reserved
