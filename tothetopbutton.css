@@ -1,9 +1,13 @@
 .back-to-top {
-    background:#ffffff;
-    color:black;
+    background: #a4a4a4;;
     position: fixed;
     bottom:20px;
     right:20px;
     height:45px;
     width: 120px;
+    border-radius: 50%;
    }
+a.back-to-top :hover{
+    background: white;
+    color: black;
+}
