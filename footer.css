@@ -1,14 +1,14 @@
-mbr-text mb-0 mbr-fonts-style display-7 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
+p.footertext {
+   background-color: #a4a4a4;
+   height: 25px;
+   margin-top: 10px;
     }
 
-footer{
-    background-color: #a4a4a4;
-    height: 50px;
-    position: relative;
-}
+    footer {
+        position: flex;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #a4a4a4;
+      }
